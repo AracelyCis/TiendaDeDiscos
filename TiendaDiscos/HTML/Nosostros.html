@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../CSS/Img/Logo.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com">
+    <script src="../JAVASCRIPT/app.js" async></script>
+    <link href="../CSS/Pagina.css" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/Styles.css">
+
+
+    <!-- Titulo -->
+
+    <title>Flood Of Dks</title>
+
+
+</head>
+
+<body>
+    <!-- Barra navegador 1-->
+    <header class="nav1">
+        <nav class="Cont1">
+            <!-- Imagen Icono-->
+            <div class="left-side">
+                <img class="img_icono" src="../CSS/Img/Logo.png">
+
+                <h4 class="titulo">Flood of Dks</h4>
+            </div>
+            <div class="right-side">
+                <!-- Buscador-->
+                <div class="Buscador">
+
+                    <input class="buscar" type="text" placeholder="¿Qué buscas?">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="input-icon" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </div>
+                <!-- Menu adaptable 1 -->
+                <button class="bt_menu" id="bt_menu"><img src="../CSS/Img/lista.png" height="30"></span></button>
+
+                <nav class="Menu1">
+                    <ul>
+                        <li>
+                            <!-- Registro -->
+                            <a href="./index.php">
+                                <button type="button" class="Registro" id="reg"><img src="../CSS/Img/usuario.png"
+                                        height="20"></button>
+                            </a>
+
+                        </li>
+                        <li>
+                            <!-- Carrito-->
+                            <a href="../HTML/Lanzamientos.html">
+                                <button type="button" class="Carrito" id="car"> <img src="../CSS/Img/corazon.png"
+                                        height="20" width="20" /></button>
+                            </a>
+
+                        </li>
+                        <li>
+                            <!-- Redes -->
+                            <button type="button" class="Redes" id="red"><img src="../CSS/Img/red-mundial.png"
+                                    height="20"></button>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- Menu (Barra navegador 2)-->
+    <button class="bt_menup" id="bt_menup"><img src="../CSS/Img/casa.png" height="30"></span></button>
+    <div class="nav2">
+        <!--Menú-->
+        <nav class="menu">
+            <a href="../HTML/Pagina.html" style="color: white;">Inicio</a>
+            <a href="../HTML/Lanzamientos.html" target="_blank" style="color: white;">Lanzamientos</a>
+            <a href="../HTML/Populares.html" target="_blank" style="color: white;">Artistas populares</a>
+           <a href="./Nosostros.html" style="color: white;">Nosotros</a>
+        </nav>
+    </div>
+    <script type="text/javascript" src="../JAVASCRIPT/menu.js"></script>
+
+    <!-- Carrusel de imagenes -->
+    <div class="carousel">
+        <input type="radio" name="carousel" id="slide-btn-1" class="slide-btn" onclick="setInt();" checked />
+        <input type="radio" name="carousel" id="slide-btn-2" class="slide-btn" onclick="setInt();" />
+        <input type="radio" name="carousel" id="slide-btn-3" class="slide-btn" onclick="setInt();" />
+        <input type="radio" name="carousel" id="slide-btn-4" class="slide-btn" onclick="setInt();" />
+        <input type="radio" name="carousel" id="slide-btn-5" class="slide-btn" onclick="setInt();" />
+        <div class="slide one">
+            <h3>L'arc en Ciel</h3>
+            <div class="credit"></div>
+        </div>
+        <div class="slide two">
+            <h3>Buck Tick</h3>
+            <div class="credit"></div>
+        </div>
+        <div class="slide three ">
+            <h3>Malice Mizer</h3>
+            <div class="credit"></div>
+        </div>
+        <div class="slide four parallax-effect">
+            <h3>X Japan</h3>
+            <div class="credit"></div>
+        </div>
+        <div class="slide five parallax-effect">
+            <h3>Dir en Grey</h3>
+            <div class="credit"></div>
+        </div>
+        <div class="labels">
+            <label for="slide-btn-1"></label>
+            <label for="slide-btn-2"></label>
+            <label for="slide-btn-3"></label>
+            <label for="slide-btn-4"></label>
+            <label for="slide-btn-5"></label>
+        </div>
+    </div>
+    <script type="text/javascript" src="../JAVASCRIPT/carrusel.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+
+    </div>
+
+    <!-- Barra (Nuevos grupos )-->
+    <section class="product">
+        <h2 class="product_category"> Nuevos Grupos</h2>
+        <button class="pre_btn"><img src="../CSS/Img/flecha.png" width="40px"></button>
+        <button class="next_btn"><img src="../CSS/Img/flecha (1).png" width="40px"></button>
+        <div class="product_container">
+            <div class="product_card">
+                <div class="product_image ">
+                    <img class="newgroup1" src="../CSS/Img/iloveimg-resized (2)/Grupo1.jpg" width="150px">
+                </div>
+                <div class="product_info">
+                    <h2 class="infouno">Zeke Deux</h2>
+                </div>
+            </div>
+
+            <div class="product_card">
+                <div class="product_image ">
+                    <img class="newgroup1" src="../CSS/Img/iloveimg-resized (2)/crimson lotus.jpg" width="150px">
+                </div>
+                <div class="product_info">
+                    <h2 class="infodos"> Crimson Lotus</h2>
+                </div>
+            </div>
+
+            <div class="product_card">
+                <div class="product_image ">
+                    <img class="newgroup1" src="../CSS/Img/iloveimg-resized (2)/damila.jpg">
+                </div>
+                <div class="product_info">
+                    <h2 class="infotres"> Damila</h2>
+                </div>
+            </div>
+
+            <div class="product_card">
+                <div class="product_image ">
+                    <img class="newgroup1" src="../CSS/Img/iloveimg-resized (2)/daylotus.jpg">
+                </div>
+                <div class="product_info">
+                    <h2 class="infocuatro"> Daylotus</h2>
+                </div>
+            </div>
+
+            <div class="product_card">
+                <div class="product_image ">
+                    <img class="newgroup1" src="../CSS/Img/iloveimg-resized (2)/Jiluka.jpg" class="product_thumb">
+                </div>
+                <div class="product_info">
+                    <h2 class="infocinco"> Jiluka</h2>
+                </div>
+            </div>
+
+            <div class="product_card">
+                <div class="product_image ">
+                    <img class="newgroup1" src="../CSS/Img/iloveimg-resized (2)/Moon stream.jpg" class="product_thumb">
+                </div>
+                <div class="product_info">
+                    <h2 class="infoseis"> Moon Stream</h2>
+                </div>
+            </div>
+            <div class="product_card">
+                <div class="product_image ">
+                    <img class="newgroup1" src="../CSS/Img/iloveimg-resized (2)/virge.jpg" class="product_thumb">
+                </div>
+                <div class="product_info">
+                    <h2 class="infosiete"> Virge</h2>
+                </div>
+            </div>
+
+            <div class="product_card">
+                <div class="product_image ">
+                    <img class="newgroup1" src="../CSS/Img/iloveimg-resized (2)/xamvala.jpg" class="product_thumb">
+                </div>
+                <div class="product_info">
+                    <h2 class="infoocho"> xamvala</h2>
+                </div>
+            </div>
+
+            <div class="product_card">
+                <div class="product_image ">
+                    <img class="newgroup1" src="../CSS/Img/iloveimg-resized (2)/acme.jpg" class="product_thumb">
+                </div>
+                <div class="product_info">
+                    <h2 class="infonueve"> Acme</h2>
+                </div>
+            </div>
+
+            <div class="product_card">
+                <div class="product_image ">
+                    <img class="newgroup1" src="../CSS/Img/iloveimg-resized (2)/D.jpg" class="product_thumb">
+                </div>
+                <div class="product_info">
+                    <h2 class="infodiez"> D</h2>
+                </div>
+            </div>
+
+            <div class="product_card">
+                <div class="product_image ">
+                    <img class="newgroup1" src="../CSS/Img/iloveimg-resized (2)/Damn.jpg" class="product_thumb">
+                </div>
+                <div class="product_info">
+                    <h2 class="infoonce"> Damn</h2>
+                </div>
+            </div>
+
+            <div class="product_card">
+                <div class="product_image ">
+                    <img class="newgroup1" src="../CSS/Img/iloveimg-resized (2)/ran.jpg" class="product_thumb">
+                </div>
+                <div class="product_info">
+                    <h2 class="infodoce"> Ran</h2>
+                </div>
+            </div>
+
+            <div class="product_card">
+                <div class="product_image ">
+                    <img class="newgroup1" src="../CSS/Img/iloveimg-resized (2)/xodiack.jpg" class="product_thumb">
+                </div>
+                <div class="product_info">
+                    <h2 class="infotrece"> xodiack</h2>
+                </div>
+            </div>
+
+            <div class="product_card">
+                <div class="product_image ">
+                    <img class="newgroup1" src="../CSS/Img/iloveimg-resized (2)/vexent.jpg" class="product_thumb">
+                </div>
+                <div class="product_info">
+                    <h2 class="infocatorce"> vexent</h2>
+                </div>
+            </div>
+
+            <div class="product_card">
+                <div class="product_image ">
+                    <img class="newgroup1" src="../CSS/Img/iloveimg-resized (2)/mirage.jpg" class="product_thumb">
+                </div>
+                <div class="product_info">
+                    <h2 class="infoquince"> Mirage</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="../JAVASCRIPT/slider.js"></script>
+
+    <!-- Contenedor_info-->
+    <!--Productos-->
+    <main class="contenedor_info">
+        <section class="secciones_lanz">
+            <!-- Contenedor 1-->
+            <div class="contenido_Lanz">
+                <section class="section_Lanz">
+                    <h3 style="color: white;">Sobre Nosotros</h3>
+                    <h2 style="color: white; text-align: center;"> Nuestro equipo</h2>
+                    <div class="grid">
+                        <div class="grid__content">                    
+                      
+                    
+                         <img align:center src="../CSS/Img/IMG.jpeg" width="25%" height="10%"style="border-radius: 50%;">
+                         <br>
+        
+                        <img src="../CSS/Img/Img_Carlangas.jpeg" width="35%" height="10%"style="border-radius: 50%;">
+                    
+                </div>
+                </div>
+                    <div >
+                        <p style="color: white; text-align: center;"> Aracely Cisneros Rdz   |  
+                                      Carlos Francisco Babún Ravelo</p>
+
+                    </div>
+                    <p style="color: white; font-size: 18px; text-align: center; margin: 40px;">
+                        Con Flood Of Disks es muy fácil encontrar la música perfectos para cada momento. <br><br>
+
+                        En nuestra empresa hay millones de canciones y episodios. Entonces, ya sea que estés manejando, haciendo
+                        ejercicio, de fiesta o en un momento relajante, la música o el podcast perfectos siempre están a
+                        tu alcance. <br>Elige lo que quieres escuchar o deja que te sorprendamos. <br> <br>
+
+                        Además, puedes explorar las colecciones de tus amigos, de artistas y celebridades o crear una
+                        estación de radio para relajarte y disfrutar de la música.
+                    </p>
+                        <h3 style="color: white; border-top-left-radius: 0px; border-top-right-radius: 0px;"> Servicio de ayuda y atención al cliente</h3>
+                        <p style="color: white; font-size: 18px; text-align: justify; margin: 40px;">
+                            1. Sitio de ayuda. Visita nuestro sitio de ayuda para resolver tus dudas y aprender cómo aprovechar
+                        al máximo nuestro servicio y tu música. <br>
+                        2. Comunidad. Obtén ayuda rápida por parte de nuestro equipo. Si todavía no hay una
+                        respuesta a tu pregunta, publícala y alguien te responderá a la brevedad. También puedes sugerir
+                        y votar por nuevas ideaso, simplemente, hablar sobre música con otros fans.<br>
+                        3. Comunícate con nosotros. Comunícate con nuestro equipo de atención al cliente si no encuentras
+                        una solución en nuestro sitio de ayuda o en la Comunidad.
+                        <br><br>
+                    </p>
+                </section>
+            </div>
+        </section>
+    </main>
+</body>
+
+<div class="bottom">
+    <div class="fondo">
+
+        <form class="formulario" action="/php/contacto.php" name="contacto-form">
+            <div class="contact">
+                <h2 style=" font-size: 25px; color: white; text-align: center;">Contacto</h2>
+            </div>
+            <fieldset>
+                <legend style="color:white">Contactenos llenando todos los campos</legend>
+                <div>
+                    <input type="text" name="NombreContacto" placeholder="Tu nombre">
+                </div>
+                <div>
+                    <input type="tel" name="TelContacto" placeholder="Tu telefono">
+                </div>
+                <div>
+                    <input type="email" name="CorreoContacto" placeholder="Tu email">
+                </div>
+                <div>
+                    <textarea placeholder="Escribenos algo...">
+            </textarea>
+                </div>
+                <div>
+                    <button class="btnContacto" type="submit" name="MensajeContacto"> Enviar</button>
+                </div>
+
+            </fieldset>
+        </form>
+    </div>
+
+    <footer>
+        <div class="Datos">
+            <h3 style="text-align: center;">Flood Of Disks</h3>
+            <h4 style="text-align: center;"><br>TECNM<br>Instituto Tecnologico de la Laguna<br></h4>
+            <p style="text-align: center;">Blvd. Revolución y Av. Instituto Tecnológico de La Laguna,<br>
+                Torreón, Coahuila, C.P. 27000<br>
+                <br>Tel:
+                <samp>+91-124</samp><br>E-mal: <samp>servicio_cliente@gmail.com </samp>
+            </p>
+            <div clas="Redes">
+                <a class="redes" href="https://facebook.com/" target="blank"><img class="face"
+                        src="../CSS/Img/facebook.png" width="70px"></a>
+                <a class="redes" href="https://instagram.com/" target="blank"><img class="insta"
+                        src="../CSS/Img/Instagram.jpg" width="70px"></a>
+                <a class="redes" href="https://twitter.com/" target="blank"><img class="twitter"
+                        src="../CSS/Img/twitter.png" width="80px"></a>
+            </div>
+        </div>
+        <br><br>
+        <div class="Informacion">
+            <div class="ubicacion">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3600.093846014998!2d-103.43742682542214!3d25.535250717926836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x868fdbe904f3bbc3%3A0x22beabbd445f86a6!2sInstituto%20Tecnol%C3%B3gico%20de%20La%20Laguna!5e0!3m2!1ses-419!2smx!4v1685226996119!5m2!1ses-419!2smx"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+
+        </div>
+    </footer>
+</div>
+<p class="derechos" style="text-align: center;">
+    <small><b>Todos los derechos reservados. Ⓡ Aracely Cisneros & Carlos Babún</b></small>
+
+</p>
+
+</footer>
+
+
+</body>
+
+</html>
